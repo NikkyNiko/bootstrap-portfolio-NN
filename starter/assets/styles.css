@@ -53,4 +53,18 @@
    
    .bg-image1.bg-image2.bg-image3.bg-image4.bg-image5.bg-image--cover {
      background-size: cover;
+     border: black solid 1px;
+   }
+
+   .navbar {
+    background-color: #cfa984;
+    border: black solid 1px;
+   }
+
+   #home {
+    background-color:#d1b397;
+   }
+   .page-wrapper {
+    background-color: #cfa984;
+    border: black solid 1px;
    }

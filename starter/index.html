@@ -12,8 +12,7 @@
     <body>
         <header id="home">
             <h1>NikkyNiko</h1>
-            <nav class="navbar">
-                <ul class="nav nav-pills">
+                <ul class="nav nav-tabs nav-fill">
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
@@ -27,12 +26,11 @@
                       <a class="nav-link" href="#contact">Get in Touch</a>
                     </li>
                   </ul>
-            </nav>
         </header>
 
         <section class="hero-banner">
-            <div class="container-fluid text-sm-center p-5 bg-light"> 
-                <h2 class="About">Wanna-be Web Developer!</h2>
+            <div class="container-fluid text-sm-center p-5" style="background-color: #d1b397;"> 
+                <h2 class="About" id="about">Wanna-be Web Developer!</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aliquam laboriosam commodi, mollitia, veniam assumenda error molestiae, deserunt quas vitae ducimus aliquid neque eius et dolore maiores placeat iste minus.</p>
             </div>
           </section>
@@ -65,5 +63,17 @@
                   </div>
             </section>
           </main>
+          <section class="Contact" id="contact" style="background-color: #d1b397;">
+            <h2>Get in touch!</h2>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Comments and queries</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            </div>
+          </section>
     </body>
 </html>
